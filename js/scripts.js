@@ -33,7 +33,7 @@ function showSignUp() {
     const user = JSON.parse(localStorage.getItem(email));
     // Chuyển hướng đến trang khác sau khi đăng nhập thành công
   if (user && user.password === password) {
-    window.location.href = "index.html"; // Đường dẫn tới trang chính
+    window.location.href = "../index.html"; // Đường dẫn tới trang chính
   }
     else {
       alert('Invalid email or password. Please try again.');
